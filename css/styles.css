@@ -1,0 +1,307 @@
+body{
+    background-color: #2e661b;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.slanted {
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    /* filter: grayscale(50%) ; */
+    height: 600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%); 
+}
+
+.slanted a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF !important;
+  z-index: 9;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  top: -40px;
+  letter-spacing: 2px;
+  font-weight: 300;
+ }
+
+ 
+
+ .sub-form{
+	margin: auto;
+}
+
+ #logo{
+     height: 80px;
+     width: auto;
+ }
+ #header-txt{
+     padding-top: 180px;
+     margin-left: 50px;
+     color: #fff;
+ }
+ nav a{
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ #header-txt h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+ }
+
+ #header-txt p{
+     font-size: 20px;
+ }
+ hr {
+     background-color: #FFF;
+ }
+
+ a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+nav i {
+    color: #BFBFBF ;
+}
+
+.section-about h1, h3{
+    font-family: 'Alfa Slab One', cursive;
+    color: #777;
+    border-bottom: 1px solid #fff;
+}
+
+#about-head{
+    /* margin: auto; */
+    border-right: 1px solid #777;
+}
+.card {
+color: #777;
+}
+
+#impact-div{
+    background-image: url('../img/impact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.section-impact h1, #icon-no{
+   font-family: 'Alfa Slab One', cursive;
+}
+.impact-icon{
+    margin: auto;
+    
+}
+.impact-icon i{
+    font-size: 50px;
+    display: block;
+    
+}
+#icon-no{
+    font-size: 30px;
+}
+#stingo{
+    border-right: 1px solid #fff;
+}
+
+.section-blog .card h4{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    transform: scale(1);
+    filter: grayscale(1);
+    transition: transform 0.2s cubic-bezier(.65,.05,.36,1), box-shadow 0.2s cubic-bezier(.65,.05,.36,1), filter 0.4s cubic-bezier(.65,.05,.36,1);
+  }
+  .card:hover {
+    cursor: pointer;
+    filter: none;
+    transform: scale(1.15);
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.3);
+  }
+  .card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover ;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+  }
+  
+  .tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .tag-purple {
+    background-color: #5e76bf;
+  }
+  .section-blog h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #777;
+  }
+  .card h4 {
+      color: #2e661b;
+  }
+.subscribe h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #777;
+}
+.sub-form form {
+padding: 15px;}
+
+footer a,i {
+    color: #000;
+}
+#uno{
+    font-size: 15px;
+    color: #111;
+}
+
+
+#social-icons i{
+    font-size: 23px;
+    padding: 5px;
+    float: right;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid #2e661b;
+    border-radius: 50%;
+    margin-left: 3px;
+    background-color: #265218;
+}
+#social-icons i:hover{
+    font-size: 25px;
+    background-color: #777;
+
+}
+#footer-social-icons i{
+    font-size: 20px;
+    color: #fff;
+}
+header {
+    font-family: monospace;
+}
+.section-blog{
+    background-color: #E4E4E4;
+}
+.section-about .container {
+    background-color: #dcdadb;
+}
+
+/* ####### BLOG PAGE STYLES######## */
+
+.main .container{
+    background-color: #fff;
+    height: auto;
+}
+.main h4{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.blog-header-div {
+    background-image: url('../img/impact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;  
+}
