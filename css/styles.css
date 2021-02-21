@@ -289,19 +289,66 @@ header {
 /* ####### BLOG PAGE STYLES######## */
 
 .main .container{
-    background-color: #fff;
+    background-color: #E4E4E4;
     height: auto;
 }
 .main h4{
     font-family: 'Alfa Slab One', cursive;
 }
 
-.blog-header-div {
+#blog-header-div {
     background-image: url('../img/impact.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: auto;
-    height: auto;  
+    height: 300px;  
+}
+#blog-header-div h1{
+    margin-top: 70px;
+}
+#pages{
+    margin: auto;
+}
+
+#post-header-div {
+    background-image: url('../img/blog1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 300px;  
+}
+
+#post-lorem {
+    width: 80%;
+    float: right;
+}
+#post-lorem h1{
+    font-family: 'Alfa Slab One', cursive; 
+    color: #2e661b;
+}
+#post-lorem p{
+    color: #555;
+}
+
+.post-main .container{
+    background-color: #fff;
+    height: auto;
+}
+
+#share-social-icons{
+    margin-top:150px;
+    position: relative;
+}
+
+#share-social-icons i{
+     font-size: 30px;
+     padding-bottom: 5px;
+}
+
+#spacer {
+    height: 100px;
 }
